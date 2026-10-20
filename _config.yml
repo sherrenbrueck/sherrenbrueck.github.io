@@ -1,3 +1,12 @@
+title: sherrenbrueck's Projekte
+description: Webseiten und Lernwerkzeuge, die mit Vibe Coding entstanden sind. Setze dir hier einen Favoriten, um meine Projekte weiter verfolgen zu können.
+lang: de
+url: https://sherrenbrueck.github.io
+
+# Die Startseite (index.html) bringt ihr eigenes Design mit.
+# Das Theme gilt nur noch für eventuelle Markdown-Seiten.
 theme: jekyll-theme-minimal
-title: Vibe-Labor von Silke Herrenbrück
-description: Wenn du die Entwicklung meiner Vibe-Coding-Projekte weiter verfolgen möchtest, setze dir einen Favoriten auf diese Seite.  
+
+# Diese Dateien nicht als eigene Seiten veröffentlichen
+exclude:
+  - README.md
