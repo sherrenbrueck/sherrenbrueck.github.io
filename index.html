@@ -1,1 +1,117 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sherrenbrueck – Projekte</title>
+<meta name="description" content="Webseiten und Lernwerkzeuge, die mit Vibe Coding entstanden sind.">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --card: #ffffff;
+    --text: #1f2328;
+    --muted: #5b636d;
+    --accent: #1d6f63;
+    --accent-soft: #e3f1ee;
+    --border: #e2ded5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181b;
+      --card: #1f2226;
+      --text: #e8e6e1;
+      --muted: #a2a8b0;
+      --accent: #5cc4b2;
+      --accent-soft: #1d3330;
+      --border: #30343a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header p { margin: 0 0 6px; color: var(--muted); }
+  ul.projects { list-style: none; padding: 0; margin: 36px 0 0; display: grid; gap: 16px; }
+  .project {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  .project h2 { margin: 0 0 6px; font-size: 1.25rem; }
+  .project h2 a { color: var(--accent); text-decoration: none; }
+  .project h2 a:hover, .project h2 a:focus-visible { text-decoration: underline; }
+  .project p { margin: 0 0 12px; }
+  .project p.empty { color: var(--muted); font-style: italic; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.9rem; }
+  .links a {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    text-decoration: none;
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .links a.code { background: transparent; border: 1px solid var(--border); color: var(--muted); }
+  .links a:hover, .links a:focus-visible { filter: brightness(0.95); text-decoration: underline; }
+  footer { margin-top: 40px; font-size: 0.85rem; color: var(--muted); }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>sherrenbrueck's Projekte</h1>
+    <p>Hier findet man Webseiten, die mit Vibe Coding erstellt wurden.</p>
+    <p>Setze dir hier einen Favoriten, um meine Projekte weiter verfolgen zu können.</p>
+  </header>
 
+  <ul class="projects">
+    <li class="project">
+      <h2><a href="https://sherrenbrueck.github.io/Verhaltenskartei/">Verhaltenskartei</a></h2>
+      <p class="empty">Noch keine Beschreibung in der README.</p>
+      <div class="links">
+        <a href="https://sherrenbrueck.github.io/Verhaltenskartei/">Seite öffnen</a>
+        <a class="code" href="https://github.com/sherrenbrueck/Verhaltenskartei">Code auf GitHub</a>
+      </div>
+    </li>
+
+    <li class="project">
+      <h2><a href="https://sherrenbrueck.github.io/Blitzlesen/">Blitzlesen</a></h2>
+      <p>Blitzlesen zu den Wörtern des Grundwortschatzes NRW</p>
+      <div class="links">
+        <a href="https://sherrenbrueck.github.io/Blitzlesen/">Seite öffnen</a>
+        <a class="code" href="https://github.com/sherrenbrueck/Blitzlesen">Code auf GitHub</a>
+      </div>
+    </li>
+
+    <li class="project">
+      <h2><a href="https://sherrenbrueck.github.io/Rezepte-schreiben/">Rezepte schreiben</a></h2>
+      <p class="empty">Noch keine Beschreibung in der README.</p>
+      <div class="links">
+        <a href="https://sherrenbrueck.github.io/Rezepte-schreiben/">Seite öffnen</a>
+        <a class="code" href="https://github.com/sherrenbrueck/Rezepte-schreiben">Code auf GitHub</a>
+      </div>
+    </li>
+
+    <li class="project">
+      <h2><a href="https://sherrenbrueck.github.io/Praxisdatenbank-Teilhabe/">Praxisdatenbank Teilhabe</a></h2>
+      <p>70 methodisch-didaktische Praxisangebote für die Heilerziehungspflege – mit Richtzielen, Grobzielen und Feinzielen, ICF-orientierter individueller Teilhabeplanung, unterstützenden Ansätzen und Evaluation. Fachliche Konzeption und 70 ausgearbeitete Praxisangebote. Stand: 16. Oktober 2026</p>
+      <div class="links">
+        <a href="https://sherrenbrueck.github.io/Praxisdatenbank-Teilhabe/">Seite öffnen</a>
+        <a class="code" href="https://github.com/sherrenbrueck/Praxisdatenbank-Teilhabe">Code auf GitHub</a>
+      </div>
+    </li>
+  </ul>
+
+  <footer>
+    Alle Projekte auf <a href="https://github.com/sherrenbrueck">GitHub</a>.
+  </footer>
+</main>
+</body>
+</html>
